@@ -116,6 +116,27 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 0;
   }
 }
+
+.footer{
+  margin-top: 250px;
+  max-width: 300px;
+  position: inherit;
+  color: #e1b00f;
+}
+
+
+/* .footer {
+  padding: 15px;
+  color: #e1b00f;
+  font-size: 14px;
+  padding-top: 220px;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 9999;
+  background: #040b14;
+} */
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -182,6 +203,8 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active #header {
   left: 0;
 }
+
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -397,12 +420,24 @@ section {
   background: #fff;
   border: 2px solid #1f5297;
 }
+/*-------------------------------------------------*/
+.pub {
+  padding-bottom: 50px;
+  padding-top: 0px;
+}
+.card{
+  margin-bottom: 20px;
+}
+.card-header{
+  background-color:beige;
+}
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 130px;
+  padding-bottom: 100px;
+  padding-top: 10px;
 }
 .contact .info {
   padding: 30px;
@@ -563,17 +598,30 @@ section {
 }
 
 
+/*----------------------------------------------------------*/
+
+.abt{
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.list{
+  font-style: italic;
+  margin-top: 20px;
+  list-style: square;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
+/* .footer {
   padding: 15px;
   color: #e1b00f;
   font-size: 14px;
-  position: fixed;
+  padding-top: 220px;
   left: 0;
   bottom: 0;
   width: 300px;
   z-index: 9999;
   background: #040b14;
-}
+} */
